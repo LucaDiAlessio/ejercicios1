@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejercicio 3 - formulario</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Formulario de registro</h1>
+      <h1>Formulario de registro</h1>
     </header>
-    <form action="">
-        <label for="">Nombre :</label>
-        <input type="text" id="Nombre" name="Nombre">
-        <br><br>
-        <label for="">Apellidos :</label>
-        <input type="text" name="Apellido" id="Apellido">
-    </form>
-    <br>
-    <form action="">
-        <label for="">Sexo :</label>
-        <input type="radio" name="genero" id="Hombre">
-        <label for="">Hombre</label>
-        <input type="radio" name="genero" id="Mujer">
+    <section>
+      <form action="">
+        <label for="nombre">Nombre :</label>
+        <input type="text" id="nombre" name="nombre" />
+        <br /><br />
+        <label for="apellido">Apellidos :</label>
+        <input type="text" name="apellido" id="apellido" />
+      </form>
+    </section>
+    <br />
+    <section>
+      <form action="">
+        <label for="hombre">Sexo :</label>
+        <input type="radio" name="genero" id="hombre" />
+        <label for="mujer">Hombre</label>
+        <input type="radio" name="genero" id="mujer" />
         <label for="">Mujer</label>
-    </form>
-    <br>
-    <form action="">
-        <label for="">Correo :</label>
-        <input type="text" id="correo" name="correo">
-    </form>
-    <br>
-    <form action="">
-        <input type="checkbox" name="preferencias" id="preferencias">
-        <label for="">Deseo recibir informacion sobre novedades y ofertas</label>
-        <br>
-        <input type="checkbox" name="preferencias2" id="preferencias2">
-        <label for="">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label>
-    </form>
-    <br>
-    <form action="">
-        <input type="submit" value="Enviar">
-    </form>
-</body>
+      </form>
+    </section>
+    <br />
+    <section>
+      <form action="">
+        <label for="correo">Correo :</label>
+        <input type="text" id="correo" name="correo" />
+      </form>
+    </section>
+    <br />
+    <section>
+      <form action="">
+        <input type="checkbox" name="preferencias" id="preferencias" />
+        <label for="preferencias"
+          >Deseo recibir informacion sobre novedades y ofertas</label
+        >
+        <br />
+        <input type="checkbox" name="preferencias2" id="preferencias2" />
+        <label for="preferencias2"
+          >Declaro haber leido y aceptar las condiciones generales del programa
+          y la normativa sobre proteccion de datos</label
+        >
+      </form>
+    </section>
+    <br />
+    <section>
+      <form action="">
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+  </body>
 </html>
